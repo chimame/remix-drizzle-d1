@@ -9,7 +9,7 @@
     "start": "cross-env NODE_ENV=production npm run wrangler",
     "typecheck": "tsc",
     "migratte:dev": "wrangler d1 migrations apply drizzle-sample --local",
-    "wrangler": "wrangler pages dev ./public"
+    "wrangler": "wrangler pages dev ./public --local --persist"
   },
   "dependencies": {
     "@remix-run/cloudflare": "^1.15.0",
