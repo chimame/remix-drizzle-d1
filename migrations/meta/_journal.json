@@ -1,0 +1,13 @@
+{
+  "version": "5",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1682841093154,
+      "tag": "0000_sleepy_mikhail_rasputin",
+      "breakpoints": false
+    }
+  ]
+}
