@@ -1,2 +1,7 @@
 compatibility_date = "2022-04-05"
 compatibility_flags = ["streams_enable_constructors"]
+
+[[ d1_databases ]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "drizzle-sample"
+database_id = "9730e3f3-ca39-4516-a096-de277d6248ac"
